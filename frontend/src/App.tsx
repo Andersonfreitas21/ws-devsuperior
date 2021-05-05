@@ -4,7 +4,7 @@ import DataTable from "components/DataTable";
 import BarChart from "components/BarChart";
 import DonutChart from "components/DonutChart";
 
-function App() {
+const App = () => {
   return (
     <>
       <NavBar />
@@ -22,7 +22,7 @@ function App() {
           </div>
         </div>
         <div className="py-3">
-          <h2 className="text-primary">Todas vendas</h22>
+          <h2 className="text-primary">Todas vendas</h2>
         </div>
         <DataTable />
       </div>
