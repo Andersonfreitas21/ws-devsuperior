@@ -1,4 +1,11 @@
-com/devsuperir/dsvendas/entities/Seller.class
-com/devsuperir/dsvendas/DsvendasApplication.class
+com/devsuperir/dsvendas/dto/SellerDTO.class
 com/devsuperir/dsvendas/entities/Sale.class
+com/devsuperir/dsvendas/mapper/SellerMapper.class
+com/devsuperir/dsvendas/entities/Seller.class
+com/devsuperir/dsvendas/controller/SellerController.class
+com/devsuperir/dsvendas/mapper/SellerMapperImpl.class
+com/devsuperir/dsvendas/services/SellerService.class
+com/devsuperir/dsvendas/repositories/SellerRepository.class
+com/devsuperir/dsvendas/repositories/SaleRepository.class
+com/devsuperir/dsvendas/DsvendasApplication.class
 com/devsuperir/dsvendas/config/security/SecurityConfig.class
