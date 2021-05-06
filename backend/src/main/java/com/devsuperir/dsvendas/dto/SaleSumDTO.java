@@ -1,5 +1,6 @@
 package com.devsuperir.dsvendas.dto;
 
+import com.devsuperir.dsvendas.entities.Seller;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,8 +12,13 @@ import java.io.Serializable;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class SellerDTO implements Serializable {
+public class SaleSumDTO implements Serializable {
     private static final long serialVersionUID = 1L;
-    private Long id;
-    private String name;
+    private String sellerName;
+    private Double sum;
+
+    public SaleSumDTO(Seller seller, Double sum){
+        sellerName = seller.getName();
+        this.sum = sum;
+    }
 }

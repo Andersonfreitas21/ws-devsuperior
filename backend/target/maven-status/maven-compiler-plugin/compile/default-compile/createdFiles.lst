@@ -1,10 +1,12 @@
 com/devsuperir/dsvendas/dto/SellerDTO.class
+com/devsuperir/dsvendas/dto/SaleSumDTO.class
 com/devsuperir/dsvendas/entities/Sale.class
 com/devsuperir/dsvendas/controller/SaleController.class
 com/devsuperir/dsvendas/mapper/SellerMapper.class
 com/devsuperir/dsvendas/mapper/SaleMapper.class
 com/devsuperir/dsvendas/entities/Seller.class
 com/devsuperir/dsvendas/controller/SellerController.class
+com/devsuperir/dsvendas/dto/SaleSuccessDTO.class
 com/devsuperir/dsvendas/mapper/SellerMapperImpl.class
 com/devsuperir/dsvendas/services/SellerService.class
 com/devsuperir/dsvendas/services/SaleService.class
